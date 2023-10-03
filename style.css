@@ -1,0 +1,99 @@
+body {
+    display: flex;              
+    justify-content: center;    
+    align-items: center;
+}
+.header {
+    background-color: #63B3ED;
+    color:  #FFFFFF;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+
+  .h1-property {
+    font-size: 36px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+
+  .blog-title-property{
+    font-size: 32px;
+    color: #63B3ED;
+    margin: auto
+  }
+  .blog-post-container {
+    flex: 1; 
+    padding-right: 20px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+  .article-container {
+    display: flex;
+    align-items: flex-start;
+  }
+  .image {
+    flex-shrink: 0;
+    float: left;
+    width: 200px;
+  }
+  .date-author-property {
+    color: #718096;
+  }
+  .line-property{
+    width: auto;
+    height: 5px;
+    background-color: #718096;
+  }
+
+  .side-bar-property {
+        flex-shrink: 0;
+        float: right;
+        margin-left: 200px;
+  }
+  .main-property {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .centered-content {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;    /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    text-align: center;     /* Center text horizontally (optional) */
+  }
+  
+  .centered-content h1 {
+    font-size: 24px;
+    margin: 0;
+  }
+  .about-box{
+    background-color: #E2E8F0;
+    width: 300px;
+    height: 250px;
+  }
+  .about-text-property{
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: auto;
+  }
+  .social-text-property{
+    color: #48BB78;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .link-property{
+    color: #4299E1;
+  }
+  .footer-property{
+    background-color: #2C5282;
+    color:  #FFFFFF;
+    padding: 20px;
+    margin-top: 50px;
+  }
+
+  .profile-image-property{
+    border-radius: 50%;
+    overflow: hidden;
+  }
+ 
